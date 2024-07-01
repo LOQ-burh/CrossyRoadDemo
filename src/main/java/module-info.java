@@ -9,6 +9,7 @@ module com.demo.mainapp.crossyroaddemo {
     requires org.kordamp.ikonli.javafx;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens com.demo.mainapp.crossyroaddemo to javafx.fxml;
     exports com.demo.mainapp.crossyroaddemo;
